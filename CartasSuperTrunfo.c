@@ -2,13 +2,13 @@
 
 int main() {
     // Carta do jogador
-    char nomePlayer[] = "Godwynn";
+    char nomePlayer[10] = "Godwynn";
     int forcaPlayer = 90;
     int inteligenciaPlayer = 70;
     int agilidadePlayer = 75;
 
     // Carta do computador
-    char nomePC[] = "Rennala";
+    char nomePC[10] = "Rennala";
     int forcaPC = 50;
     int inteligenciaPC = 90;
     int agilidadePC = 75; 
