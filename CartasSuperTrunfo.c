@@ -24,16 +24,16 @@ int main() {
 
     printf("Bem Vindo ao Super Trunfo de Cidades!\n\n");
     
-    printf("=== CARTA 1 - SÃO PAULO ===\n");
-    printf("Populacao: %d habitantes\n", populacao1);
-    printf("Area: %.2f km2\n", area1);
+    printf("*** CARTA 1 - SÃO PAULO ***\n");
+    printf("População: %d habitantes\n", populacao1);
+    printf("Área: %.2f km2\n", area1);
     printf("PIB: %.2f bilhões\n", pib1);
     printf("Pontos Turísticos: %d\n", pontos1);
     printf("Densidade: %.2f hab/km2\n\n", densidade1);
     
-    printf("=== CARTA 2 - RIO DE JANEIRO ===\n");
-    printf("Populacao: %d habitantes\n", populacao2);
-    printf("Area: %.2f km2\n", area2);
+    printf("*** CARTA 2 - RIO DE JANEIRO ***\n");
+    printf("População: %d habitantes\n", populacao2);
+    printf("Área: %.2f km2\n", area2);
     printf("PIB: %.2f bilhões\n", pib2);
     printf("Pontos Turísticos: %d\n", pontos2);
     printf("Densidade: %.2f hab/km2\n\n", densidade2);
@@ -52,7 +52,7 @@ int main() {
     {
         case 'P':
         case 'p':
-            printf("Você escolheu a opcao População!\n");
+            printf("Você escolheu a opção População!\n");
             resultado1 = populacao1 > populacao2 ? 1 : 0;
             break;
         case 'A':
@@ -131,7 +131,7 @@ int main() {
         }
     }
 
-    printf("=== RESULTADO ===\n");
+    printf("*** RESULTADO ***\n");
     
     if (resultado1 && resultado2)
     {
@@ -145,7 +145,7 @@ int main() {
         printf("Rio de Janeiro venceu a primeira comparacao!\n");
         printf("Sao Paulo venceu a segunda comparacao!\n");
         printf("Resultado final: Empate!\n");
-        
+
     } else if (resultado1 == 0 && resultado2 == 0) {
         printf("Rio de Janeiro Ganhou as duas comparacoes!\n");
     } else {
